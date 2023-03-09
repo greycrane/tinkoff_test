@@ -51,7 +51,7 @@ public class TinkoffTests {
     @Test
     @Owner("szhuravlev")
     @Severity(BLOCKER)
-    @Description("Проверка перехода на открытие ИИС")
+    @Description("Проверка перехода на открытие ИИЗ")
     void checkInvestmentsPage() {
         open("/invest");
         $(byText("Инвестируйте в ценные бумаги")).shouldBe(visible);
@@ -80,7 +80,7 @@ public class TinkoffTests {
     @Description("Проверка наличия ошибки при неверном номере телефона при входе в ЛК")
     void checkIncorrectLoginErrorAppears() {
         open("/login");
-        $(byText("Вход в Тинькофф")).shouldBe(visible);
+        $(byText("Вход в Тиньковв")).shouldBe(visible);
         $("#phoneNumber").click();
         $("#phoneNumber").append("5644654754764764");
         $(byText("Продолжить")).click();
