@@ -31,6 +31,7 @@ public class TinkoffTests {
     @Test
     @Owner("szhuravlev")
     @Severity(BLOCKER)
+    @DisplayName("Проверка возможности начать оформление дебетовой карты")
     @Story("Проверка возможности начать оформление дебетовой карты")
     void checkGetDebitCardButton() {
         step("Открыть главную страницу tinkoff.ru", () -> {
@@ -50,6 +51,7 @@ public class TinkoffTests {
     @Test
     @Owner("szhuravlev")
     @Severity(CRITICAL)
+    @DisplayName("Проверка наличия опроса по подбору тарифа мобильной связи")
     @Story("Проверка наличия опроса по подбору тарифа мобильной связи")
     void checkMobileTariffSurvey() {
         step("Открыть страницу \"Сим-карта\"", () -> {
@@ -69,6 +71,7 @@ public class TinkoffTests {
     @Test
     @Owner("szhuravlev")
     @Severity(BLOCKER)
+    @DisplayName("Проверка перехода на открытие ИИС")
     @Story("Проверка перехода на открытие ИИС")
     void checkInvestmentsPage() {
         step("Открыть страницу \"Инвестиции\"", () -> {
@@ -90,6 +93,7 @@ public class TinkoffTests {
     @Test
     @Owner("szhuravlev")
     @Severity(CRITICAL)
+    @DisplayName("Проверка наличия всех страховых продуктов")
     @Story("Проверка наличия всех страховых продуктов")
     void checkInsurancePage() {
         step("Открыть страницу \"Страхование\"", () -> {
@@ -121,6 +125,7 @@ public class TinkoffTests {
     @Test
     @Owner("szhuravlev")
     @Severity(NORMAL)
+    @DisplayName("Проверка наличия ошибки при неверном номере телефона при входе в ЛК")
     @Story("Проверка наличия ошибки при неверном номере телефона при входе в ЛК")
     void checkIncorrectLoginErrorAppears() {
         step("Открыть страницу входа в ЛК", () -> {
