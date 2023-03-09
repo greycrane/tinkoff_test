@@ -56,7 +56,9 @@ public class TinkoffTests {
         open("/invest");
         $(byText("Инвестируйте в ценные бумаги")).shouldBe(visible);
         $(byText("Открыть ИИС")).click();
-        $(byText("Счет для инвестирования с возможностью получить +13% через налоговый вычет")).shouldBe(visible);
+        $(byText("Счет для инвестирования с возможностью получить +13% через налоговый вычет"))
+                .scrollTo()
+                .shouldBe(visible);
     }
 
     @Test
