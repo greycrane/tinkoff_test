@@ -36,14 +36,16 @@
 
 ## Технологии и инструменты
 
-<a href="https://www.jetbrains.com/idea/"><img src="images/logos/java.svg" width="80" height="80"  alt="Java" title="Java"/></a>
-<a href="https://www.jetbrains.com/idea/"><img src="images/logos/allureTestOps.svg" width="80" height="80"  alt="IDEA"/></a>
-<a href="https://www.jetbrains.com/idea/"><img src="images/logos/gitHub.svg" width="80" height="80"  alt="IDEA"/></a>
-<a href="https://www.jetbrains.com/idea/"><img src="images/logos/gradle.svg" width="80" height="80"  alt="IDEA"/></a>
-<a href="https://www.jetbrains.com/idea/"><img src="images/logos/idea.svg" width="80" height="80"  alt="IDEA"/></a>
-<a href="https://www.jetbrains.com/idea/"><img src="images/logos/jenkins.svg" width="80" height="80"  alt="IDEA"/></a>
-<a href="https://www.jetbrains.com/idea/"><img src="images/logos/selenoid.svg" width="80" height="80"  alt="IDEA"/></a>
-<a href="https://www.jetbrains.com/idea/"><img src="images/logos/selenide.svg" width="80" height="80"  alt="IDEA"/></a>
+<a href="https://www.java.com/"><img src="images/logos/java.svg" width="60" height="60"  alt="Java" title="Java"/></a>
+<a href="https://junit.org/junit5/"><img src="images/logos/jUnit5.svg" width="60" height="60"  alt="JUnit5" title="JUnit5"/></a>
+<a href="https://github.com/allure-framework/allure2"><img src="images/logos/allureReport.svg" width="60" height="60"  alt="Allure Report" title="Allure Report"/></a>
+<a href="https://qameta.io/"><img src="images/logos/allureTestOps.svg" width="60" height="60"  alt="Allure TestOps" title="Allure TestOps"/></a>
+<a href="https://gradle.org/"><img src="images/logos/gradle.svg" width="60" height="60"  alt="Gradle" title="Gradle"/></a>
+<a href="https://www.jenkins.io/"><img src="images/logos/jenkins.svg" width="60" height="60"  alt="Jenkins CI" title="Jenkins CI"/></a>
+<a href="https://aerokube.com/selenoid/"><img src="images/logos/selenoid.svg" width="60" height="60"  alt="Selenoid" title="Selenoid"/></a>
+<a href="https://selenide.org/"><img src="images/logos/selenide.svg" width="60" height="60"  alt="Selenide" title="Selenide"/></a>
+<a href="https://www.jetbrains.com/idea/"><img src="images/logos/idea.svg" width="60" height="60"  alt="IntelliJ IDEA" title="IntelliJ IDEA"/></a>
+<a href="https://github.com/"><img src="images/logos/gitHub.svg" width="60" height="60"  alt="GitHub" title="GitHub"/></a>
 
 [comment]: <> ([![Java]&#40;images/logos/tinkoff.png&#41;]&#40;https://java.com&#41;)
 
