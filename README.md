@@ -46,6 +46,8 @@
 <a href="https://selenide.org/"><img src="images/logos/selenide.svg" width="60" height="60"  alt="Selenide" title="Selenide"/></a>
 <a href="https://www.jetbrains.com/idea/"><img src="images/logos/idea.svg" width="60" height="60"  alt="IntelliJ IDEA" title="IntelliJ IDEA"/></a>
 <a href="https://github.com/"><img src="images/logos/gitHub.svg" width="60" height="60"  alt="GitHub" title="GitHub"/></a>
+<a href="https://www.atlassian.com/software/jira"><img src="images/logos/jira.svg" width="60" height="60"  alt="Jira" title="Jira"/></a>
+<a href="https://telegram.org/"><img src="images/logos/telegram.svg" width="60" height="60"  alt="Telegram" title="Telegram"/></a>
 
 [comment]: <> ([![Java]&#40;images/logos/tinkoff.png&#41;]&#40;https://java.com&#41;)
 
