@@ -36,11 +36,14 @@
 
 ## Технологии и инструменты
 
-
-
-<a href="https://www.jetbrains.com/idea/"><img src="images/logos/tinkoff.png" width="50" height="50"  alt="IDEA"/></a>
-<a href="https://www.jetbrains.com/idea/"><img src="images/logos/tinkoff.png" width="50" height="50"  alt="IDEA"/></a>
-<a href="https://www.jetbrains.com/idea/"><img src="images/logos/tinkoff.png" width="50" height="50"  alt="IDEA"/></a>
+<a href="https://www.jetbrains.com/idea/"><img src="images/logos/java.svg" width="80" height="80"  alt="IDEA"/></a>
+<a href="https://www.jetbrains.com/idea/"><img src="images/logos/allureTestOps.svg" width="80" height="80"  alt="IDEA"/></a>
+<a href="https://www.jetbrains.com/idea/"><img src="images/logos/gitHub.svg" width="80" height="80"  alt="IDEA"/></a>
+<a href="https://www.jetbrains.com/idea/"><img src="images/logos/gradle.svg" width="80" height="80"  alt="IDEA"/></a>
+<a href="https://www.jetbrains.com/idea/"><img src="images/logos/idea.svg" width="80" height="80"  alt="IDEA"/></a>
+<a href="https://www.jetbrains.com/idea/"><img src="images/logos/jenkins.svg" width="80" height="80"  alt="IDEA"/></a>
+<a href="https://www.jetbrains.com/idea/"><img src="images/logos/selenoid.svg" width="80" height="80"  alt="IDEA"/></a>
+<a href="https://www.jetbrains.com/idea/"><img src="images/logos/selenide.svg" width="80" height="80"  alt="IDEA"/></a>
 
 [comment]: <> ([![Java]&#40;images/logos/tinkoff.png&#41;]&#40;https://java.com&#41;)
 
