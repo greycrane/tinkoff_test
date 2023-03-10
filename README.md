@@ -36,7 +36,7 @@
 
 ## Технологии и инструменты
 
-<a href="https://www.jetbrains.com/idea/"><img src="images/logos/java.svg" width="80" height="80"  alt="IDEA"/></a>
+<a href="https://www.jetbrains.com/idea/"><img src="images/logos/java.svg" width="80" height="80"  alt="Java" title="Java"/></a>
 <a href="https://www.jetbrains.com/idea/"><img src="images/logos/allureTestOps.svg" width="80" height="80"  alt="IDEA"/></a>
 <a href="https://www.jetbrains.com/idea/"><img src="images/logos/gitHub.svg" width="80" height="80"  alt="IDEA"/></a>
 <a href="https://www.jetbrains.com/idea/"><img src="images/logos/gradle.svg" width="80" height="80"  alt="IDEA"/></a>
