@@ -36,6 +36,7 @@
 
 ## Технологии и инструменты
 
+<p align="center">
 <a href="https://www.java.com/"><img src="images/logos/java.svg" width="60" height="60"  alt="Java" title="Java"/></a>
 <a href="https://junit.org/junit5/"><img src="images/logos/jUnit5.svg" width="60" height="60"  alt="JUnit5" title="JUnit5"/></a>
 <a href="https://github.com/allure-framework/allure2"><img src="images/logos/allureReport.svg" width="60" height="60"  alt="Allure Report" title="Allure Report"/></a>
@@ -48,14 +49,7 @@
 <a href="https://github.com/"><img src="images/logos/gitHub.svg" width="60" height="60"  alt="GitHub" title="GitHub"/></a>
 <a href="https://www.atlassian.com/software/jira"><img src="images/logos/jira.svg" width="60" height="60"  alt="Jira" title="Jira"/></a>
 <a href="https://telegram.org/"><img src="images/logos/telegram.svg" width="60" height="60"  alt="Telegram" title="Telegram"/></a>
-
-[comment]: <> ([![Java]&#40;images/logos/tinkoff.png&#41;]&#40;https://java.com&#41;)
-
-[comment]: <> ([![Java]&#40;images/logos/tinkoff.png&#41;]&#40;https://java.com&#41;)
-
-[comment]: <> ([![Java]&#40;images/logos/tinkoff.png&#41;]&#40;https://java.com&#41;)
-
-[comment]: <> ([![Java]&#40;images/logos/tinkoff.png&#41;]&#40;https://java.com&#41;)
+</p>
 
 <a id="run"></a>
 
