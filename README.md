@@ -118,5 +118,5 @@
 
 <img src="images/screenshots/allure_screenshot.png" alt="Allure screenshot" title="Allure screenshot"/>
 
-<img src="videos/testcase.png" alt="Video" title="Video"/>
+<img src="videos/testcase.gif" alt="Video" title="Video"/>
 
