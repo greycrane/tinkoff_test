@@ -56,18 +56,18 @@
 <a href="https://telegram.org/"><img src="images/logos/telegram.svg" width="60" height="60"  alt="Telegram" title="Telegram"/></a>
 </p>
 
-:eight_spoked_asterisk: Java - язык программирования для написания тестов.
-:eight_spoked_asterisk: JUnit5 - фреймворк для запуска автотестов.
-:eight_spoked_asterisk: Allure Report - средство визуализации отчётов о тестировании.
-:eight_spoked_asterisk: Allure TestOps - система тест менеджмента.
-:eight_spoked_asterisk: Gradle - средство автоматизации сборок.
-:eight_spoked_asterisk: Jenkins - система CI/CD (Continuous Integration / Continuous Delivery).
-:eight_spoked_asterisk: Selenoid - сервер для удалённого запуска автотестов в Docker-контейнерах.
-:eight_spoked_asterisk: Selenide - фреймворк для написания автотестов.
-:eight_spoked_asterisk: IntelliJ IDEA - среда разработки программного кода.
-:eight_spoked_asterisk: GitHub - система удалённого хранения исходного кода.
-:eight_spoked_asterisk: Jira - система управления задачами и проектами.
-:eight_spoked_asterisk: Telegram Bot - бот для оповещения о результатах тестирования.
+:eight_spoked_asterisk: Java - язык программирования для написания тестов.<br>
+:eight_spoked_asterisk: JUnit5 - фреймворк для запуска автотестов.<br>
+:eight_spoked_asterisk: Allure Report - средство визуализации отчётов о тестировании.<br>
+:eight_spoked_asterisk: Allure TestOps - система тест менеджмента.<br>
+:eight_spoked_asterisk: Gradle - средство автоматизации сборок.<br>
+:eight_spoked_asterisk: Jenkins - система CI/CD (Continuous Integration / Continuous Delivery).<br>
+:eight_spoked_asterisk: Selenoid - сервер для удалённого запуска автотестов в Docker-контейнерах.<br>
+:eight_spoked_asterisk: Selenide - фреймворк для написания автотестов.<br>
+:eight_spoked_asterisk: IntelliJ IDEA - среда разработки программного кода.<br>
+:eight_spoked_asterisk: GitHub - система удалённого хранения исходного кода.<br>
+:eight_spoked_asterisk: Jira - система управления задачами и проектами.<br>
+:eight_spoked_asterisk: Telegram Bot - бот для оповещения о результатах тестирования.<br>
 
 <a id="run"></a>
 
@@ -101,4 +101,4 @@
 
 После запуска автотестов генерируется простой и понятный отчёт в Allure.
 
-<img src="images/screenshots/allure_report.png" width="640" height="480"  alt="Allure Report" title="Allure Report"/>
+<img src="images/screenshots/allure_report.png" alt="Allure Report" title="Allure Report"/>
