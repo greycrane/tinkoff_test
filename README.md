@@ -101,7 +101,7 @@
 
 ## Скриншоты и видео
 
-После запуска автотестов генерируется простой и понятный отчёт в Allure.
+После запуска автотестов генерируется простой и понятный отчёт в **Allure**.
 
 <img src="images/screenshots/allure_report.png" alt="Allure Report" title="Allure Report"/>
 
@@ -114,9 +114,19 @@
 <img src="images/screenshots/allure_error.png" alt="Allure error" title="Allure error"/>
 
 Также к каждому пройденному тесту прилагаются артефакты для изучения возникших проблем, такие как снимок экрана в 
-момент завершения теста и полная видеозапись окна браузера во время прохождения теста.
+момент завершения теста и полная видеозапись окна браузера во время прохождения тестов.
 
 <img src="images/screenshots/allure_screenshot.png" alt="Allure screenshot" title="Allure screenshot"/>
 
 <img src="videos/testcase.gif" alt="Video" title="Video"/>
 
+По окончании тестов приходит уведомление в бот Telegram с превью результатов, ссылкой на отчёт в **Allure**
+и другой полезной информацией.
+
+<img src="images/screenshots/telegram_bot.png" alt="Telegram bot" title="Telegram bot"/>
+
+В проекте настроена интеграция с issue-трекером **Jira** и тест менеджмент системой **Allure TestOps**.
+
+<img src="images/screenshots/jira_integration.png" alt="Jira" title="Jira"/>
+
+<img src="images/screenshots/allureTestOps_integration.png" alt="Allure TestOps" title="Allure TestOps"/>
