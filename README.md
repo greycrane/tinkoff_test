@@ -56,18 +56,18 @@
 <a href="https://telegram.org/"><img src="images/logos/telegram.svg" width="60" height="60"  alt="Telegram" title="Telegram"/></a>
 </p>
 
-:eight_spoked_asterisk: Java - язык программирования для написания тестов.<br>
-:eight_spoked_asterisk: JUnit5 - фреймворк для запуска автотестов.<br>
-:eight_spoked_asterisk: Allure Report - средство визуализации отчётов о тестировании.<br>
-:eight_spoked_asterisk: Allure TestOps - система тест менеджмента.<br>
-:eight_spoked_asterisk: Gradle - средство автоматизации сборок.<br>
-:eight_spoked_asterisk: Jenkins - система CI/CD (Continuous Integration / Continuous Delivery).<br>
-:eight_spoked_asterisk: Selenoid - сервер для удалённого запуска автотестов в Docker-контейнерах.<br>
-:eight_spoked_asterisk: Selenide - фреймворк для написания автотестов.<br>
-:eight_spoked_asterisk: IntelliJ IDEA - среда разработки программного кода.<br>
-:eight_spoked_asterisk: GitHub - система удалённого хранения исходного кода.<br>
-:eight_spoked_asterisk: Jira - система управления задачами и проектами.<br>
-:eight_spoked_asterisk: Telegram Bot - бот для оповещения о результатах тестирования.<br>
+:eight_spoked_asterisk: **Java** - язык программирования для написания тестов.<br>
+:eight_spoked_asterisk: **JUnit5** - фреймворк для запуска автотестов.<br>
+:eight_spoked_asterisk: **Allure Report** - средство визуализации отчётов о тестировании.<br>
+:eight_spoked_asterisk: **Allure TestOps** - система тест менеджмента.<br>
+:eight_spoked_asterisk: **Gradle** - средство автоматизации сборок.<br>
+:eight_spoked_asterisk: **Jenkins** - система CI/CD (Continuous Integration / Continuous Delivery).<br>
+:eight_spoked_asterisk: **Selenoid** - сервер для удалённого запуска автотестов в Docker-контейнерах.<br>
+:eight_spoked_asterisk: **Selenide** - фреймворк для написания автотестов.<br>
+:eight_spoked_asterisk: **IntelliJ IDEA** - среда разработки программного кода.<br>
+:eight_spoked_asterisk: **GitHub** - система удалённого хранения исходного кода.<br>
+:eight_spoked_asterisk: **Jira** - система управления задачами и проектами.<br>
+:eight_spoked_asterisk: **Telegram Bot** - бот для оповещения о результатах тестирования.<br>
 
 <a id="run"></a>
 
@@ -88,11 +88,13 @@
 
 Пример запуска автотестов с дополнительными параметрами:
 
-`gradle clean tinkoff_tests -Dselenoid=https://seleno.id -Dbrowser=chrome -Dversion=100.0 -Dresolution=1920x1080`
+`gradle clean tinkoff_tests -Dselenoid=https://seleno.id -Dbrowser=chrome
+-Dversion=100.0 -Dresolution=1920x1080`
 
 ### Jenkins
 
-Необходимо перейти <a href="https://jenkins.autotests.cloud/job/17-greycrane-14-tinkoff-tests/">по ссылке</a> и нажать "Собрать с параметрами".<br>
+Необходимо перейти <a href="https://jenkins.autotests.cloud/job/17-greycrane-14-tinkoff-tests/">по ссылке</a>
+и нажать "Собрать с параметрами".<br>
 Далее выберите необходимые параметры для запуска автотестов и нажмите на кнопку "Собрать".
 
 <a id="screenshots"></a>
@@ -102,3 +104,19 @@
 После запуска автотестов генерируется простой и понятный отчёт в Allure.
 
 <img src="images/screenshots/allure_report.png" alt="Allure Report" title="Allure Report"/>
+
+Вы можете выбрать любой тестовый сценарий и увидеть, какие шаги он содержит и каков результат выполнения каждого из них.
+
+<img src="images/screenshots/allure_testcase.png" alt="Allure test case" title="Allure test case"/>
+
+Если какой-то тест завершился с ошибкой, вы можете узнать подробности о ней, выбрав упавший сценарий.
+
+<img src="images/screenshots/allure_error.png" alt="Allure error" title="Allure error"/>
+
+Также к каждому пройденному тесту прилагаются артефакты для изучения возникших проблем, такие как снимок экрана в 
+момент завершения теста и полная видеозапись окна браузера во время прохождения теста.
+
+<img src="images/screenshots/allure_screenshot.png" alt="Allure screenshot" title="Allure screenshot"/>
+
+<img src="videos/testcase.png" alt="Video" title="Video"/>
+
