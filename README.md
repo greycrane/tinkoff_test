@@ -17,20 +17,25 @@
 
 ## Описание
 
-Вашему вниманию представляется тестовый проект по автоматизации тестирования пользовательского интерфейса
-веб-сайта <a href="https://tinkoff.ru/ ">Тинькофф</a>.
+Это тестовый проект по автоматизации тестирования пользовательского интерфейса
+веб-сайта <a href="https://tinkoff.ru/ ">Тинькофф</a>.<br>
+Он создан для демонстрации моих навыков и способностей построения тестового фреймворка с нуля для дальнейшего
+устройства в компанию **Tinkoff**.
+
+В проекте используется самый современный стэк технологий, присутствует интеграция с системами CI/CD и issue-трекерами,
+генерируются удобные и понятные отчёты о запуске тестов. 
 
 <a id="scenarios"></a>
 
 ## Тестовые сценарии
 
-| №    | <p style="text-align:left">Название</p>                             | Важность |
-| ---- | ------------------------------------------------------------------- | -------- |
-| 1    | :sparkle: Проверка возможности начать оформление дебетовой карты              | BLOCKER  |
-| 2    | :sparkle: Проверка наличия опроса по подбору тарифа мобильной связи           | CRITICAL |
-| 3    | :sparkle: Проверка перехода на открытие ИИС                                   | BLOCKER  |
-| 4    | :sparkle: Проверка наличия всех страховых продуктов                           | CRITICAL |
-| 5    | :sparkle: Проверка наличия ошибки при неверном номере телефона при входе в ЛК | NORMAL   |
+| №    | <p style="text-align:left">Название</p>                                       | Важность                 |
+| ---- | ----------------------------------------------------------------------------- | ------------------------ |
+| 1    | :sparkle: Проверка возможности начать оформление дебетовой карты              | :red_square: BLOCKER     |
+| 2    | :sparkle: Проверка наличия опроса по подбору тарифа мобильной связи           | :orange_square: CRITICAL |
+| 3    | :sparkle: Проверка перехода на открытие ИИС                                   | :red_square: BLOCKER     |
+| 4    | :sparkle: Проверка наличия всех страховых продуктов                           | :orange_square: CRITICAL |
+| 5    | :sparkle: Проверка наличия ошибки при неверном номере телефона при входе в ЛК | :yellow_square: NORMAL   |
 
 <a id="tools"></a>
 
@@ -51,10 +56,49 @@
 <a href="https://telegram.org/"><img src="images/logos/telegram.svg" width="60" height="60"  alt="Telegram" title="Telegram"/></a>
 </p>
 
+:eight_spoked_asterisk: Java - язык программирования для написания тестов.
+:eight_spoked_asterisk: JUnit5 - фреймворк для запуска автотестов.
+:eight_spoked_asterisk: Allure Report - средство визуализации отчётов о тестировании.
+:eight_spoked_asterisk: Allure TestOps - система тест менеджмента.
+:eight_spoked_asterisk: Gradle - средство автоматизации сборок.
+:eight_spoked_asterisk: Jenkins - система CI/CD (Continuous Integration / Continuous Delivery).
+:eight_spoked_asterisk: Selenoid - сервер для удалённого запуска автотестов в Docker-контейнерах.
+:eight_spoked_asterisk: Selenide - фреймворк для написания автотестов.
+:eight_spoked_asterisk: IntelliJ IDEA - среда разработки программного кода.
+:eight_spoked_asterisk: GitHub - система удалённого хранения исходного кода.
+:eight_spoked_asterisk: Jira - система управления задачами и проектами.
+:eight_spoked_asterisk: Telegram Bot - бот для оповещения о результатах тестирования.
+
 <a id="run"></a>
 
 ## Как запустить тесты
 
+### Gradle
+
+В командной строке среды разработки IntelliJ IDEA необходимо выполнить следующую команду:
+
+`gradle clean tinkoff_tests`
+
+Также можно запустить тесты с дополнительными параметрами:
+
+**selenoid** - адрес сервера Selenoid
+<br>**browser** - название браузера
+<br>**version** - версия браузера
+<br>**resolution** - разрешение окна браузера
+
+Пример запуска автотестов с дополнительными параметрами:
+
+`gradle clean tinkoff_tests -Dselenoid=https://seleno.id -Dbrowser=chrome -Dversion=100.0 -Dresolution=1920x1080`
+
+### Jenkins
+
+Необходимо перейти <a href="https://jenkins.autotests.cloud/job/17-greycrane-14-tinkoff-tests/">по ссылке</a> и нажать "Собрать с параметрами".<br>
+Далее выберите необходимые параметры для запуска автотестов и нажмите на кнопку "Собрать".
+
 <a id="screenshots"></a>
 
 ## Скриншоты и видео
+
+После запуска автотестов генерируется простой и понятный отчёт в Allure.
+
+<img src="images/screenshots/allure_report.png" width="640" height="480"  alt="Allure Report" title="Allure Report"/>
