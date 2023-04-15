@@ -1,4 +1,4 @@
-package dev.greycrane;
+package dev.greycrane.tests;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
@@ -6,7 +6,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.util.Map;
 
-public class TestsConfiguration {
+public class TestBase {
 
     @BeforeAll
     public void configureTests() {

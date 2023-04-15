@@ -1,4 +1,4 @@
-package dev.greycrane;
+package dev.greycrane.tests;
 
 import com.codeborne.selenide.logevents.SelenideLogger;
 import dev.greycrane.helpers.Attachments;
@@ -19,8 +19,8 @@ import static io.qameta.allure.SeverityLevel.*;
 public class TinkoffTests {
     @BeforeAll
     static void configTests() {
-        TestsConfiguration testsConfiguration = new TestsConfiguration();
-        testsConfiguration.configureTests();
+        TestBase testBase = new TestBase();
+        testBase.configureTests();
     }
 
     @BeforeEach
