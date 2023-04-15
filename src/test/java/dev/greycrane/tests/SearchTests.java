@@ -16,7 +16,7 @@ import static io.qameta.allure.Allure.step;
 import static io.qameta.allure.SeverityLevel.*;
 
 @Tag("tinkoff")
-public class TinkoffTests {
+public class SearchTests {
     @BeforeAll
     static void configTests() {
         TestBase testBase = new TestBase();
