@@ -1,6 +1,7 @@
 plugins {
-    id 'java'
+    id 'java-library'
     id 'io.qameta.allure' version '2.10.0'
+    id "io.freefair.lombok" version "6.6.3"
 }
 
 group 'dev.greycrane'
@@ -31,9 +32,14 @@ compileTestJava {
 dependencies {
     testImplementation(
             'org.junit.jupiter:junit-jupiter:5.9.2',
+            "io.qameta.allure:allure-rest-assured:2.21.0",
+            'io.rest-assured:rest-assured:5.3.0',
             'com.codeborne:selenide:6.12.0',
+            "io.appium:java-client:8.3.0",
+            "commons-io:commons-io:2.11.0",
             'com.github.javafaker:javafaker:1.0.2',
             'io.qameta.allure:allure-selenide:2.21.0',
+            "org.aeonbits.owner:owner:1.0.4",
             'org.assertj:assertj-core:3.24.2'
     )
 }
@@ -46,8 +52,20 @@ test {
     useJUnitPlatform()
 }
 
-task tinkoff_tests(type: Test) {
+task android_tests(type: Test) {
     useJUnitPlatform{
-        includeTags("tinkoff")
+        includeTags("android")
+    }
+}
+
+task ui_tests(type: Test) {
+    useJUnitPlatform{
+        includeTags("ui")
+    }
+}
+
+task api_tests(type: Test) {
+    useJUnitPlatform{
+        includeTags("api")
     }
 }
